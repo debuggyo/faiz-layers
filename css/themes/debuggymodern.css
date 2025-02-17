@@ -109,7 +109,6 @@ header nav div button {
     border: 1px solid var(--color-border);
     border-radius: 2rem;
     margin-inline: auto;
-    margin-bottom: -10px;
 }
 
 .resource-button button {
