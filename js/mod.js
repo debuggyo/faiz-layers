@@ -1,6 +1,6 @@
 const mod = {
-    primaryName: "ω",
-    secondaryName: "Engine",
+    primaryName: "Φ ",
+    secondaryName: "Layers",
     version: "1.0.0",
     engineVer: "1.0.1", //DO NOT MODIFY
     debugMode: false,
@@ -13,7 +13,14 @@ const mod = {
         ["Neon", "css/themes/neon.css"],
         ["Godot Blue", "css/themes/darkblue.css"],
         ["Halloween", "css/themes/spooky.css"],
-        ["eXPerience", "css/themes/experience.css"]
+        ["eXPerience", "css/themes/experience.css"],
+        ["Faiz", "css/themes/faiz.css"],
+        ["Kaixa", "css/themes/kaixa.css"],
+        ["Delta", "css/themes/delta.css"],
+        ["Faiz Modern", "css/themes/faizmodern.css"],
+        ["Kaixa Modern", "css/themes/kaixamodern.css"],
+        ["Delta Modern", "css/themes/deltamodern.css"],
+        ["debuggy Modern", "css/themes/debuggymodern.css"]
     ],
     layerNames: [
         ["Greek",

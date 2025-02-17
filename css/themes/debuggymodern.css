@@ -1,0 +1,126 @@
+:root{
+    --background-body: #111;
+    --background-header: #111;
+    --color-base: #222;
+    --color-primary: #ccc;
+    --color-hover: #383838;
+    --color-hover-strong: #444;
+    --color-contrast: #fff;
+    --color-success: #060;
+    --button-dark: #000;
+    --notification--error: #a20;
+    --notification--success: #3a0;
+    --notification--special: #a60;
+    --color-border: #555;
+}
+
+.omega {
+    display: inline-block;
+    transform: scale(1.5,1);
+    margin-right: 0.2em;
+}
+
+button, .settings-panel {
+    border: 1px solid var(--color-border) !important;
+    border-radius: 12px;
+    background-color: var(--color-base);
+}
+
+.guide-item .header {
+    border-bottom: none;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    border-bottom: var(--color-border);
+}
+
+#superImportantTitle {
+    margin-right: 10px;
+}
+
+#superImportantTitle .omega {
+    color: #f00;
+}
+
+header nav {
+    order: 2;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+header nav div, div.tabs {
+    justify-content: stretch !important;
+    gap: 5px;
+}
+
+div.tabs {
+    padding-inline: 10px;
+}
+
+.tabs button {
+    flex-grow: 1;
+    margin: 0 !important;
+    padding-inline: 1rem;
+}
+
+header nav div button {
+    flex-grow: 1;
+    max-width: none;
+}
+
+.news-ticker {
+    margin-top: -15px;
+    background-color: var(--color-base);
+    border: none;
+    border-bottom: 1px solid var(--color-border);
+    order: 0;
+}
+
+.layer-navigation {
+    display: flex;
+    align-items: center;
+    justify-content: safe center;
+    margin-left: 5px;
+    gap: 5px;
+    margin-bottom: 5px;
+    order: 3;
+}
+
+.layer-navigation button {
+    font-size: 2rem;
+    min-width: 80px;
+}
+
+.layer-navigation button.selected {
+    transform: scale(1.05);
+}
+
+.layer-navigation button:hover {
+    transform: scale(1.1) !important;
+}
+
+
+.resource-display {
+    background-color: var(--color-base);
+    width: fit-content;
+    padding-inline: 1.5rem;
+    border: 1px solid var(--color-border);
+    border-radius: 2rem;
+    margin-inline: auto;
+    margin-bottom: -10px;
+}
+
+.resource-button button {
+    border-radius: 2rem;
+    padding-inline: 1rem;
+}
+
+table th {
+    border-bottom-color: var(--color-border);
+}
+
+button.upgrade {
+    border-radius: 15px;
+}

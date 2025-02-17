@@ -1,0 +1,6 @@
+@import url(debuggymodern.css);
+
+:root{
+    --color-primary: #f00;
+    --color-border: #f00;
+}
