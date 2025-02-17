@@ -123,3 +123,7 @@ table th {
 button.upgrade {
     border-radius: 15px;
 }
+
+button.prestige {
+    margin-top: -20px;
+}
